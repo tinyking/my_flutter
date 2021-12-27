@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:my_flutter/login.dart';
 import 'package:my_flutter/routes.dart';
 
+import 'json_page.dart';
+
 
 ///
 ///
@@ -17,7 +19,7 @@ class RallyApp extends StatelessWidget {
       initialRoute: loginRoute,
       routes: <String, WidgetBuilder> {
         // homeRoute: (context) => const HomePage(),
-        loginRoute: (context) => const LoginPage(),
+        loginRoute: (context) => JsonPage(),
       },
     );
   }
